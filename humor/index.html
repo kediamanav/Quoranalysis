@@ -1,0 +1,15 @@
+<?php
+	$message = $_POST["message"];
+?>
+
+<html>
+<body>
+<form method="post" action="<?php echo $PHP_SELF;?>">
+	Enter your message : <input type="text" name="msg"/>
+	<button type="button">Submit</button>
+</form>
+</body>
+</html>
+<?
+	echo $message;
+?>
