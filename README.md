@@ -11,6 +11,10 @@ Quora is a question-and-answer website where questions are asked, answered, edit
 
 ## Instructions to use
 
+### Individual Features
+* Each feature has a separate module. There are 5 features in total - Humor, Satire, Detailed, Inappropriate, and Readability.
+* To run individual modules, go to the corresponding folder and run their python scripts.
+
 ### WebApp
 * WebApp is a great visualization tool of our innovation. It has been built using [Python Flask Framework](http://code.tutsplus.com/tutorials/creating-a-web-app-from-scratch-using-python-flask-and-mysql--cms-22972) and [D3 Library of Javascript] (https://d3js.org/).
 * Copy the WebApp folder to the mentioned location using ```cp Quoranalysis/WepApp /var/www/html/``` and then run ```python run.py```. This will run the python server which will serve the requests.
